@@ -1,7 +1,9 @@
-
+import cat
 
 def main():
-    print("UwU! This is the uwu module.")
+    game = cat.CatDancer()
+
+    game.run()
 
 if __name__ == "__main__":
     main()
