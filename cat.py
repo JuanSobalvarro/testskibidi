@@ -7,6 +7,7 @@ class CatDancer:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((800, 600))
+        pygame.display.set_caption("gatito.uwu")
         self.cat_image = pygame.image.load("cat.png")
         self.cat_x, self.cat_y = 400, 300
         self.angle = 0
